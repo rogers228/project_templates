@@ -1,0 +1,7 @@
+@echo off
+rem start cmd 開啟一個新的命令列視窗 /k 保留視窗開啟
+rem %~dp0 代表目前這個 .bat 檔所在的資料夾
+rem 啟用虛擬環境
+start cmd /k "cd /d %~dp0 && venv\Scripts\activate.bat"
+
+rem 可執行後續指令
