@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# 強制所有 .sh 腳本不論在任何平台，Checkout 時一律保持 Linux LF 格式
+*.sh text eol=lf
